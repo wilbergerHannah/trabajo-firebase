@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro de alumnos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navegador">
+      <div class="logo">
+        <h2>English Cursos</h2>
+      </div>
+      
+      
+      <a href="index1.html">Registrar alumnos</a>
+      <a href="index2.html">Alumnos registrados</a>
+    </nav>
+    
+    
+    <header class="caja">
+      <h1 class="titulo1">Cursos de Inglés</h1>
+      <p>Registro de estudiantes</p>
+    </header>
+    
+    
+    <div class="Cargaralumno">
+      <h2>Registrar alumno</h2>
+      <p>Completá los datos del estudiante</p>
+      
+      <input type="text" id="nombre" placeholder="Nombre y Apellido" />
+      
+      <input type="text" id="dni" placeholder="DNI" />
+      
+      <input type="number" id="edad" placeholder="Edad" />
+      
+      <input type="text" id="nivel" placeholder="Nivel de Inglés" />
+      
+      <button id="agregar">+ Agregar alumno</button>
+    </div>
+    
+    
+    <h2>Registro de alumnos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre y Apellido</th>
+          <th>DNI</th>
+          <th>Edad</th>
+          <th>Nivel de Inglés</th>
+        </tr>
+      </thead>
+      <tbody class="tabla"></tbody>
+    </table>
+    
+  </body>
+  <script type="module" src="index1.js"></script>
+  </html>
+  

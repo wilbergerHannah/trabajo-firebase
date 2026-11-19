@@ -1,0 +1,191 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6f4;
+    color: #333;
+  }
+  
+  
+  .navegador {
+    height: 70px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    padding: 0 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .logo {
+    margin-right: 20px;
+  }
+  
+  
+  .logo h2 {
+    font-size: 20px;
+  }
+  
+  
+  .navegador a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+  }
+  
+  
+  .navegador a:hover {
+    color: #198754;
+  }
+  
+  
+  .caja {
+    padding: 35px 60px 20px;
+    text-align: center;
+  }
+  
+  
+  .titulo1 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  
+  .caja p {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  
+  .Cargaralumno {
+    background-color: white;
+    margin: 15px 60px 30px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  .Cargaralumno h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  
+  
+  .Cargaralumno p {
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  
+  .Cargaralumno input {
+    padding: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  
+  .Cargaralumno input:focus {
+    outline: none;
+    border-color: #198754;
+  }
+  
+  
+  #agregar {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  
+  #agregar:hover {
+    background-color: #157347;
+  }
+  
+  
+  /* LISTADO */
+  
+  
+  .Listado {
+    margin: 30px 60px;
+  }
+  
+  
+  .Listado h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  
+  
+  .buscar {
+    margin-bottom: 20px;
+  }
+  
+  
+  .buscar input {
+    padding: 12px;
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  
+  .buscar input:focus {
+    outline: none;
+    border-color: #198754;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  
+  thead {
+    background-color: #f1f3f2;
+  }
+  
+  
+  th {
+    text-align: left;
+    padding: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  
+  td {
+    padding: 14px 15px;
+    border-top: 1px solid #eee;
+    font-size: 14px;
+  }
+  
+  
+  tbody tr:hover {
+    background-color: #f8f9f8;
+  }
+  
